@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    background: linear-gradient(to right,#363682,#84b0d7,#21218e);
+}
+
+.signup_page{
+    border: 2px solid black;
+    display: block;
+    width: 40%;
+    margin: 3% auto;
+    padding: 2% 0%;
+    border-radius: 10%;
+    padding-bottom: 5%;
+    background: #c9c3f0;
+}
+
+.sign_up_text{
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(134, 84, 84);
+}
+
+.container{
+    position: relative;
+    margin: 4% 12%;
+    display: block;
+    margin-right: 5vw;
+}
+
+.form_input{
+    padding: 7px 0px 7px 46px;
+    font-size: 16px;
+    border-radius: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.highlight:hover{
+    border: 3px solid black;
+}
+
+.email_icon{
+    background: url("/person-icon.png");
+}
+
+.fa-lg{
+    position: absolute;
+    z-index: 1;
+    cursor: text;
+    left: 3%;
+    top: 25%;
+}
+
+#btn{
+    width: 75%;
+    border: 2px solid black;
+    background: rgb(15,57,88);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2% 0;
+    border-radius: 10px;
+    margin: 7% 12%;
+}
+
+#btn:hover{
+    border: 4px solid black;
+}
